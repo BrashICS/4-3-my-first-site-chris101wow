@@ -20,6 +20,8 @@ h1 {
   float: right;
 }
 .task_bar{
+  width: 100%;
+  position: fixed;
   margin: -30px;
   display: flex;
   background-color: blue;
@@ -65,4 +67,7 @@ h1 {
 }
 .box_img{
   border-radius: 60px ;
+}
+.first{
+  margin-top: 5%;
 }

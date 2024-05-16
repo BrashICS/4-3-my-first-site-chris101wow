@@ -1,7 +1,7 @@
 list = document.getElementsByName("name")
 let i = 0;
-let done = true
 function check_leave(){
+    let done = true
     while( i<list.length){
         list[i].style.color = "red"
         if(list[i].value == ""){
